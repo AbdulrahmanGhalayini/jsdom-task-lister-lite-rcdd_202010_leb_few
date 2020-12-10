@@ -1,3 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // your code here
-});
+document.getElementById("myAnchor").addEventListener("click", function(event){
+  event.preventDefault()
+});});
